@@ -48,7 +48,7 @@ app_core สามารถ add เข้าไปที่ `dependencies` ใ�
 dependencies:
   flutter:
   sdk: flutter
-	  
+
   # My Core dependency
   app_core:
     git:
