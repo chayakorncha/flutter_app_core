@@ -51,13 +51,13 @@ dependencies:
 	  
   # My Core dependency
   app_core:
-	  git:
-	    url: {azure_clone_url}
-	    # ref คือ commit point ที่ต้องการดึง Code ลงมาใช้ 
-	    # สามารถกำหนด Commit ref id ได้ เช่น
-	    # ref: c495XXX 
-	    # คือ commit ref id tag-version 0.0.1
-	    ref: develop # ref ไปที่ branch develop
+    git:
+      url: {azure_clone_url}
+      # ref คือ commit point ที่ต้องการดึง Code ลงมาใช้ 
+      # สามารถกำหนด Commit ref id ได้ เช่น
+      # ref: c495XXX
+      # คือ commit ref id tag-version 0.0.1
+      ref: develop # ref ไปที่ branch develop
 ```
  
 >  - ใช้ command `flutter pub get` ในการดึงลงมาในครั้งแรก 
