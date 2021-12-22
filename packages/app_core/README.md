@@ -47,7 +47,7 @@ app_core สามารถ add เข้าไปที่ `dependencies` ใ�
 ```yaml
 dependencies:
   flutter:
-	sdk: flutter
+  sdk: flutter
 	  
   # My Core dependency
   app_core:
